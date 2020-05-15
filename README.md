@@ -33,7 +33,7 @@ videos
 
 As shown in the image below, a CNN is needed in the MSR and RGB stream. I have decided to proceed with MobileNetV3 taken from [https://github.com/xiaochus/MobileNetV3](https://github.com/xiaochus/MobileNetV3) due to its lightweight architecture.
 
-<img src="network.png" width="1000">
+<img src="network.PNG" width="1000">
 
 This backbone can be substituted with any of the backbones here: [https://keras.io/api/applications/](https://keras.io/api/applications/).
 
@@ -55,7 +55,7 @@ The custom DataGenerator is found in `datagen.py` and it generates batches of im
 
 The Attention-based Fusion stated in the paper can be found in `attention.py`. The inner working of the layer can be seen in the image below.
 
-<img src="datagen.png" width="1000">
+<img src="attention.PNG" width="1000">
 
 ## 5. Test
 To test the model using your webcam, run the following command: `python test.py`
